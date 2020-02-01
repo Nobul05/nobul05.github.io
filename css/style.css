@@ -1,0 +1,142 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+@font-face {
+	font-family: RobotoR;
+	src: url( ../fonts/Roboto-Regular.ttf );
+}
+
+@font-face {
+	font-family: RobotoB;
+	src: url( ../fonts/Roboto-Bold.ttf );
+}
+
+@font-face {
+	font-family: SSP;
+	src: url( ../fonts/Source-Sans-Pro.ttf );
+}
+@font-face {
+	font-family: RobotoL;
+	src: url( ../fonts/Roboto-Light .ttf );
+}
+
+body {
+	font-family: RobotoR; 
+}
+.header{
+	background-image: url(../img/header.jpg);
+	background-size:cover;
+	min-height: 670px;
+    color: white;
+}
+
+
+.header-tourism {
+	padding-top: 79px;
+	padding-bottom: 100px;
+	text-align: center;
+	font-size: 12pt;
+	font-family: SSP;
+
+}
+
+.header-explore {
+	padding-top: 215px;
+	font-size: 23pt;
+	font-family: RobotoB;
+	color: #b7b7b7;
+}
+
+.header-deep{
+	font-size: 63pt;
+    font-family: RobotoB;
+
+}
+
+.header-lorem{
+	font-size: 14pt;
+	color: #b7b7b7;
+}
+.header-explore, .header-deep, .header-lorem{
+	padding-left: 220px;
+}
+
+
+.Gallery{
+	min-height: 740px;
+
+
+
+}
+.text-content{
+	display: flex;
+	flex-wrap: wrap;
+		padding-top: 70px;
+		padding-left: 220px;
+
+}
+
+
+
+
+.Gallery-Gallery{
+font-family: RobotoL;
+font-size: 30px;
+}
+.Gallery-Lorem{
+font-family: RobotoL;
+font-size: 13px;
+padding-left: 65px;
+padding-top:20px;
+}
+.image-content{
+display: flex;
+flex-wrap: wrap;
+	padding-top: 36px;
+	padding-bottom: 105px;
+	width: 940px;
+	margin: auto;
+}
+.image-box{
+	padding-left: 20px;
+}
+.image-box div:last-child{
+	padding-top:20px; 
+
+}
+.footer {
+	min-height: 326px;
+	background-image: url(../img/footer.jpg);
+	background-size: cover;
+	color: white;
+	padding-top: 100px;
+}
+
+
+.footer-Caption {
+font-size: 23pt;
+font-family: RobotoL;
+border: 1px solid white;
+padding: 5px;
+width: 180px;
+margin: auto;
+text-align: center;
+
+
+
+}
+.footer-Lorem {
+	padding-top: 30px;
+	font-size: 13pt;
+	font-family: RobotoL;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	line-height: 26pt;
+}
+
+
+
